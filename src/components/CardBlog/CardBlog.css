@@ -1,0 +1,53 @@
+.card-blog-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.card-blog-title span {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color: #939191;
+    padding: 10px 0px 0px 0px;
+    margin-bottom: 0;
+}
+
+.card-blog-heading h5 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    letter-spacing: -0.03em;
+    color: #1E1B1B;
+    margin: 0;
+    padding: 10px 0px;
+}
+
+.card-blog-heading p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color: #232536;
+}
+
+.btn-button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 40px;
+    gap: 10px;
+    background: #1E1B1B;
+    border-radius: 12px;
+    color: #fff;
+    margin: 40px auto;
+}
+
+.btn-button:hover {
+    background-color: var(--Primary);
+    color: #fff;
+}

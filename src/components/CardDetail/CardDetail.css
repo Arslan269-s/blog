@@ -1,0 +1,81 @@
+.card-details .container {
+    width: 55%;
+    margin: 30px auto;
+}
+
+.card-details-text h3 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;
+    letter-spacing: -0.03em;
+    color: #1E1B1B;
+}
+
+.card-details-text p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color: #232536;
+    opacity: 0.6;
+}
+
+.card-details-imgs img {
+    height: 512px;
+    width: 1280px;
+    object-fit: cover;
+
+}
+
+.card-details-mini-text h4 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 140%;
+    letter-spacing: -0.03em;
+    color: #1E1B1B;
+}
+
+.card-details-ways img {
+    height: 598px;
+    width: 896px;
+    padding: 30px 0px;
+}
+
+.card-details-mini-text-ways h5 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: -0.03em;
+    color: #1E1B1B;
+}
+
+.card-details-mini-text-ways p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color: #232536;
+    opacity: 0.6;
+}
+
+.ways-text p {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 175%;
+    position: relative;
+    padding-left: 35px;
+}
+
+.ways-text p::before {
+    content: "";
+    position: absolute;
+    width: 3.19px;
+    height: 100px;
+    background: #1E1B1B;
+    left: 0;
+    top: 1px;
+}

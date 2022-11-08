@@ -1,0 +1,148 @@
+.blog-image {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-image::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(30, 27, 27, 0.8)
+}
+
+img.blogs-img {
+    height: 100%;
+    width: 100%;
+}
+
+.blog-image-text p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-weight: 700;
+    font-size: 44px;
+}
+
+.blog-details {
+    background-color: var(--black);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.blog-details h4 {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.blog-details p {
+    color: #fff;
+    font-size: 14px;
+    font-size: 18px;
+    line-height: 31px;
+    padding-right: 50px;
+    
+}
+
+.row-flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .container {
+    width: 75%;
+    max-width: 75%;
+    margin: 0px auto;
+  }
+
+  .blog-main {
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 90px 0px;
+  }
+
+  .blog-mini {
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  .blog-mini-image {
+    width: 21em;
+    height: 16em;
+    margin: 0px auto;
+    object-fit: cover;
+  }
+
+  img.blog-mini-img{
+    height: 100%;
+    width: 100%;
+}
+
+.blog-mini-text-left span {
+    color: var(--gray);
+    font-size: 16px;
+}
+
+.blog-mini-text-left span:nth-child(2) {
+    padding-left: 20px;
+}
+
+.blog-mini-text-right span {
+    color: var(--Primary);
+    font-size: 16px;
+}
+
+.blog-mini-details-heading h4 {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-top: 12px;
+    color: #1E1B1B;
+    letter-spacing: -0.03em;
+}
+
+.blog-mini-details-heading p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color: #232536;
+    opacity: 0.6;
+}
+
+.blog-mini-details-heading a {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 175%;
+    color: #1E1B1B;
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+}
+
+a {
+    text-decoration: none;
+}
